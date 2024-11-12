@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Produto Exclusivo</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 50px 0;
+        }
+        .product {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .product img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product h2 {
+            color: #007bff;
+            font-size: 1.8em;
+        }
+        .product p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .btn {
+            padding: 15px 25px;
+            font-size: 1.1em;
+            color: white;
+            background-color: #28a745;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #218838;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Produto Exclusivo - Apenas Hoje!</h1>
+    <p>Não perca a chance de adquirir este produto incrível com um preço imperdível!</p>
+</header>
+
+<div class="container">
+    <div class="product">
+        <img src="https://via.placeholder.com/300" alt="Produto Exclusivo">
+        <h2>Produto Premium</h2>
+        <p>O melhor produto para suas necessidades. Com qualidade excepcional e preço acessível.</p>
+        <p><strong>De: R$ 499,99</strong> Por: <span style="font-size: 1.5em; color: red;">R$ 299,99</span></p>
+
+        <div class="buttons">
+            <!-- Botões de compra -->
+            <a href="https://www.exemplo.com/compra" target="_blank">
+                <button class="btn">Comprar Agora</button>
+            </a>
+            <a href="https://www.exemplo.com/compra" target="_blank">
+                <button class="btn">Comprar com Desconto</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 Sua Loja. Todos os direitos reservados.</p>
+</div>
+
+</body>
+</html>
